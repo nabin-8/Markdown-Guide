@@ -66,7 +66,7 @@ unordert list
 ---
 ### Highlight
 <pre>
-> To highlight we can use Blockquotes **>**
+> To highlight we can use Blockquotes >
 
 `#RRGGBB`
 
