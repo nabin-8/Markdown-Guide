@@ -66,20 +66,20 @@ unordert list
 ---
 ### Highlight
 <pre>
-> To highlight we can use Blockquotes >
+> To highlight you can use Blockquotes >
 
 `#RRGGBB`
 
 ``` 
-    To highlight multiple things we can use
+    To highlight multiple things you can use
 ```
 </pre>
-> To highlight we can use
+> To highlight you can use
 
 `#RRGGBB`
 
 ``` 
-    To highlight multiple things we can use
+    To highlight multiple things you can use
 ```
 ---
 ### Horizontal line
