@@ -1,16 +1,14 @@
 ### Markdown Guide
 ## Table of Contents
-|No| Content | link |
-|---| ---| ---|
-|1.| Hedings| [click](#hedings) |
-|2.| Styling text| [click](#styling-text)|
-|3.| List| [click](#list)|
-|4.| Table| [click](#table)|
+|No| Content | link |No| Content | link |
+|---| ---| ---|---| ---| ---|
+|1.| Hedings| [click](#hedings) |7.| Quoting code| [click](#quoting-code)|
+|2.| Styling text| [click](#styling-text)|8.| Link| [click](#link)|
+|3.| List| [click](#list)|9.| Images| [click](#images)|
+|4.| Table| [click](#table)|10.|Mermaid|[click](#mermaid)|
 |5.| Highlight| [click](#highlight)|
 |6.| Horizontal line| [click](#horizontal-line)|
-|7.| Quoting code| [click](#quoting-code)|
-|8.| Link| [click](#link)|
-|9.| Images| [click](#images)|
+
 ---
 ### Hedings
 `# A first-level heading`
@@ -148,7 +146,7 @@ With Mermaid You can make
 
 - Graph 
 - Roadmaps
-- mermaid
+- Shapes
 - Flow
 - Gantt Chart
 
@@ -192,7 +190,7 @@ Diagram
        A--->D((Gantt Chart))
        A--->E((Graph))
 ```
-Code
+*Code*
 <pre>
 ```mermaid
        flowchart
@@ -204,3 +202,80 @@ Code
        A--->E((Graph))
 ```
 </pre>
+
+### Shapes
+```mermaid
+       flowchart
+    Rectangle
+```
+*Code*
+<pre>
+```mermaid
+       flowchart
+    Rectangle
+```
+</pre>
+```mermaid
+    flowchart
+    A(Rectangle Round Edges)
+
+```
+*Code*
+<pre>
+```mermaid
+    flowchart
+    A(Rectangle Round Edges)
+
+```
+</pre>
+```mermaid
+    flowchart
+    A((__Circle__))
+
+```
+*Code*
+<pre>
+```mermaid
+    flowchart
+    A((Circle))
+
+```
+</pre>
+```mermaid
+    flowchart
+    A>Asymmetric]
+
+```
+*Code*
+<pre>
+```mermaid
+    flowchart
+    A>Asymmetric]
+
+```
+</pre>
+```mermaid
+    flowchart
+    A{Rhombus}
+
+```
+*Code*
+<pre>
+```mermaid
+    flowchart
+    A{Rhombus}
+
+```
+</pre>
+
+### Gantt Chart
+```gantt
+    title A Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    section Section
+    First Task       :a1, 2018-07-01, 30d
+    Another Task     :after a1, 20d
+    section Another
+    Second Task      :2018-07-12, 12d
+    Third Task       : 24d
+```
