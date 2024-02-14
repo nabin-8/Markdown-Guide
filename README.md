@@ -141,3 +141,66 @@ You can use `---` 3 hyphen
 ![alt text](./img/gitbranch.png)
 
 ---
+
+## Mermaid
+
+With Mermaid You can make
+
+- Graph 
+- Roadmaps
+- mermaid
+- Flow
+- Gantt Chart
+
+Let's Lern the basics
+
+### Graph
+Possible directions are:
+
+- TB - top bottom
+- BT - bottom top
+- RL - right left
+- LR - left right
+- TD - same as TB
+
+Diagram
+```mermaid 
+flowchart TD
+A-->B
+```
+Code
+<pre>```mermaid 
+flowchart 
+A-->B
+```</pre>
+
+|Diagram |Code|Diagram|Code|
+|---|---|---|---|
+|![diagram1](/img/diagram1.png)|TB |![diagram1](/img/diagram3.png)|RL |
+|![diagram1](/img/diagram2.png)|BT |![diagram1](/img/diagram4.png)|LR |
+
+
+### Roadmaps
+
+Diagram
+```mermaid
+       flowchart
+
+       A((md Guide))
+       A--->B((mermaid))
+       A--->C((Flow Chart))
+       A--->D((Gantt Chart))
+       A--->E((Graph))
+```
+Code
+<pre>
+```mermaid
+       flowchart
+
+       A((md Guide))
+       A--->B((mermaid))
+       A--->C((Flow Chart))
+       A--->D((Gantt Chart))
+       A--->E((Graph))
+```
+</pre>
