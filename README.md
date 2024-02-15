@@ -153,6 +153,17 @@ With Mermaid You can make
 Let's Lern the basics
 
 ### Graph
+
+Diagram
+```mermaid 
+flowchart TD
+A-->B
+```
+*Code*
+<pre>```mermaid 
+flowchart 
+A-->B
+```</pre>
 Possible directions are:
 
 - TB - top bottom
@@ -161,18 +172,9 @@ Possible directions are:
 - LR - left right
 - TD - same as TB
 
-Diagram
-```mermaid 
-flowchart TD
-A-->B
-```
-Code
-<pre>```mermaid 
-flowchart 
-A-->B
-```</pre>
 
-|Diagram |Code|Diagram|Code|
+
+|Diagram |*Code*|Diagram|*Code*|
 |---|---|---|---|
 |![diagram1](/img/diagram1.png)|TB |![diagram1](/img/diagram3.png)|RL |
 |![diagram1](/img/diagram2.png)|BT |![diagram1](/img/diagram4.png)|LR |
@@ -269,7 +271,21 @@ Diagram
 </pre>
 
 ### Gantt Chart
-```gantt
+```mermaid
+    gantt
+    title  Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    section Section
+    First Task       :a1, 2024-01-01, 30d
+    Another Task     :after a1, 20d
+    section Another
+    Second Task      :2024-01-12, 12d
+    Third Task       : 24d
+```
+*code*
+<pre>
+    ```mermaid
+    gantt
     title A Gantt Diagram
     dateFormat  YYYY-MM-DD
     section Section
@@ -279,3 +295,4 @@ Diagram
     Second Task      :2018-07-12, 12d
     Third Task       : 24d
 ```
+</pre>
